@@ -888,15 +888,15 @@ risques-climatiques-portefeuille-financier/
 ├── README.md
 │
 ├── code/
-│   └── data_challenge_risques_climatiques.ipynb
+│   └── DataChallenge_BAILLET_MILLOT_ELHABTI.ipynb
 │
 ├── donnees/
 │   ├── Portefeuille.xlsx
 │
 │
 ├── documentation/
-│   ├── consignes_data_challenge_cdc.pdf
-│   └── livrable_final_risques_climatiques.pdf 
+│   ├── SlidesIREF_data-challenge.pdf
+│   └── DataChallenge_LivrableFINAL.pdf 
 │   └── Synthese_Data_Challenge.pdf
 │
 └── resultats/
