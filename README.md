@@ -55,7 +55,6 @@ Le projet combine :
 - [Limites](#limites)
 - [Pistes d’amélioration](#pistes-damélioration)
 - [Auteurs](#auteurs)
-- [Avertissement](#avertissement)
 
 ---
 
