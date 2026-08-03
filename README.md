@@ -1168,7 +1168,6 @@ La méthodologie fournit ainsi un cadre reproductible permettant d’intégrer l
 
 ---
 
-
 # Auteurs
 
 Projet réalisé par :
