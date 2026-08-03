@@ -893,12 +893,13 @@ risques-climatiques-portefeuille-financier/
 │   └── data_challenge_risques_climatiques.ipynb
 │
 ├── donnees/
-│   ├── portefeuille_actifs.xlsx
+│   ├── Portefeuille.xlsx
 │
 │
 ├── documentation/
 │   ├── consignes_data_challenge_cdc.pdf
-│   └── livrable_final_risques_climatiques.pdf
+│   └── livrable_final_risques_climatiques.pdf 
+│   └── Synthese_Data_Challenge.pdf
 │
 └── resultats/
     ├── portefeuille_renseigne.xlsx
@@ -1197,5 +1198,3 @@ Compétences principales :
 - SQL ;
 - Power BI ;
 - R.
-
-GitHub : [benjaminblt](https://github.com/benjaminblt)
