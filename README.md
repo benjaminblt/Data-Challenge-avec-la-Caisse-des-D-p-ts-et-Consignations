@@ -50,7 +50,6 @@ Le projet combine :
 - [Analyse sectorielle](#analyse-sectorielle)
 - [Principaux enseignements](#principaux-enseignements)
 - [Structure du dépôt](#structure-du-dépôt)
-- [Exécuter le projet](#exécuter-le-projet)
 - [Technologies utilisées](#technologies-utilisées)
 - [Compétences démontrées](#compétences-démontrées)
 - [Limites](#limites)
@@ -907,57 +906,6 @@ risques-climatiques-portefeuille-financier/
     ├── portefeuille_scores_contreparties.xlsx
     └── cartes/
 ```
-
----
-
-# Exécuter le projet
-
-## Prérequis
-
-- Python 3.10 ou supérieur ;
-- Jupyter Notebook ou JupyterLab ;
-- QGIS pour reproduire les cartes réalisées manuellement ;
-- données DRIAS ;
-- Shapefile des communes.
-
-## Installer les bibliothèques
-
-```bash
-pip install pandas numpy scipy tabulate scikit-learn matplotlib seaborn geopandas openpyxl jupyter
-```
-
-Selon le système utilisé, GeoPandas peut également nécessiter :
-
-```bash
-pip install shapely pyproj fiona
-```
-
-## Lancer le notebook
-
-Depuis la racine du dépôt :
-
-```bash
-jupyter notebook code/data_challenge_risques_climatiques.ipynb
-```
-
-## Ordre d’exécution
-
-1. importer les bibliothèques ;
-2. charger les données DRIAS ;
-3. contrôler les valeurs manquantes et les doublons ;
-4. sélectionner les indicateurs ;
-5. normaliser les variables ;
-6. déterminer le nombre de clusters ;
-7. créer les scores climatiques ;
-8. produire les cartes par horizon ;
-9. charger le portefeuille ;
-10. associer les horizons aux maturités ;
-11. ajouter les pondérations sectorielles ;
-12. calculer les scores par actif ;
-13. agréger les scores par commune ;
-14. agréger les scores par contrepartie ;
-15. calculer le score global ;
-16. exporter les résultats.
 
 ---
 
